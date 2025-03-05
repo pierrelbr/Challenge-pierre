@@ -1,0 +1,98 @@
+
+body {  
+  background-image: url("../images/black.jpg");
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  border-bottom: 2px solid whitesmoke;
+  width: 30%;
+  margin:auto;
+}
+
+h2 {
+  color:ghostwhite;
+}
+
+#accroche {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Compétences {
+  color:crimson;
+}
+
+.lieu {
+  font-style: italic;
+}
+
+/* ---------------------------- MEDIA QUERIES ------------------------------------------ */
+
+@media screen and (max-width:1024px){
+  main{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  section {
+    width: 90%;
+    background: rgba(204, 175, 175, 0.3);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+  h1 {
+    color: blanchedalmond;
+    font-size: 8vw;
+    width: max-content;
+  }
+  h2, p{
+    text-align: center;
+  }
+
+  a img {
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (min-width:1025px){
+  body{
+     margin:auto; 
+     background-color: #a6c0ce;   
+  }
+  main{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  section {
+    width: 30%;
+    background: rgba(51, 76, 219, 0.5);
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+  }
+  h1 {
+    color: blanchedalmond;
+    font-size: 5vw;
+    width: max-content;
+  }
+  h2, p{
+    text-align: center;
+  }
+
+  a img {
+    display: block;
+    position: absolute;
+    top:20px;
+    right: 20px;
+  }
+  
+}
