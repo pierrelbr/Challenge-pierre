@@ -1,44 +1,80 @@
-
-body {  
-  background-image: url("../images/black.jpg");
+body {
+  background-color: rgba(4, 24, 33, 255);
 }
+
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   text-transform: uppercase;
-  border-bottom: 2px solid whitesmoke;
-  width: 30%;
-  margin:auto;
 }
 
-h2 {
-  color:ghostwhite;
+header {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid whitesmoke
 }
 
-#accroche {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-  font-weight: 400;
-  font-style: normal;
+nav {
+  background-color: rgb(65, 75, 5);
 }
 
-#Compétences {
-  color:crimson;
+#half {
+  color: #f8fcf5;
+}
+#link {
+  color: #f8fcf5;
+}
+#insta {
+  color: #f8fcf5;
+}
+#facebook {
+  color: #f8fcf5;
 }
 
-.lieu {
-  font-style: italic;
+#vert {
+  color: rgba(28, 212, 156, 255);
 }
 
-/* ---------------------------- MEDIA QUERIES ------------------------------------------ */
 
-@media screen and (max-width:1024px){
-  main{
-    display:flex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------- MEDIA QUERIES ------------------------------------------ 
+
+@media screen and (max-width:1024px) {
+  main {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
+
   section {
     width: 90%;
     background: rgba(204, 175, 175, 0.3);
@@ -47,12 +83,15 @@ h2 {
     padding: 10px;
     margin: 10px;
   }
+
   h1 {
     color: blanchedalmond;
-    font-size: 8vw;
+    font-size: 2vw;
     width: max-content;
   }
-  h2, p{
+
+  h2,
+  p {
     text-align: center;
   }
 
@@ -61,38 +100,4 @@ h2 {
     margin: auto;
   }
 }
-@media screen and (min-width:1025px){
-  body{
-     margin:auto; 
-     background-color: #a6c0ce;   
-  }
-  main{
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  section {
-    width: 30%;
-    background: rgba(51, 76, 219, 0.5);
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
-  }
-  h1 {
-    color: blanchedalmond;
-    font-size: 5vw;
-    width: max-content;
-  }
-  h2, p{
-    text-align: center;
-  }
-
-  a img {
-    display: block;
-    position: absolute;
-    top:20px;
-    right: 20px;
-  }
-  
-}
+*/
