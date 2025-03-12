@@ -110,9 +110,11 @@ footer {
 
   #pics {
     grid-template-columns: repeat(3, 1fr);
+
     img:nth-child(n + 10) {
       display: none;
     }
+
     gap: 5px;
     max-width: 95%;
   }
@@ -126,10 +128,17 @@ footer {
     margin-left: 10px;
     font-weight: 50;
   }
+
   #sub {
     font-size: 12px;
     text-align: center;
     letter-spacing: 3px;
     color: white;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  #sub {
+    font-size: 9px;
   }
 }
