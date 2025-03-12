@@ -14,7 +14,7 @@ h1 {
   text-transform: uppercase;
 }
 
-#vert {
+#green{
   color: rgba(29, 213, 157, 255);
 }
 
@@ -23,7 +23,7 @@ h2 {
   font-size: 50px;
 }
 
-#crea {
+#creative {
   color: rgba(29, 213, 157, 255);
 }
 
@@ -56,7 +56,7 @@ header {
   margin-left: 200px;
 }
 
-#sub {
+#subtitles {
   text-align: center;
   letter-spacing: 3px;
   color: white;
