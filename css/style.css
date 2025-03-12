@@ -82,6 +82,11 @@ footer {
   color: #829093;
 }
 
+img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1024px) {
 
   #pics {
