@@ -82,7 +82,7 @@ footer {
   color: #829093;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
   #pics {
     grid-template-columns: repeat(5, 1fr);
@@ -105,7 +105,7 @@ footer {
   header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
 
   #pics {
