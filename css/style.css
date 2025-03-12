@@ -2,6 +2,11 @@ body {
   background-color: rgba(4, 24, 33, 255);
 }
 
+* {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 h1 {
   color: white;
@@ -14,29 +19,27 @@ h1 {
 }
 
 h2 {
-  font-size: 45px;
-  color: white
+  color: white;
+  font-size: 50px;
 }
 
-h3 {
-    font-size: 35px;
-    color: white
-}
-
-h4 {
+#crea {
   color: rgba(29, 213, 157, 255);
-  font-size: 30px;
+}
+
+p {
+  color: #829093;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 header {
-  background-color: blueviolet;
   display: flex;
   justify-content: space-between;
-  border-bottom: 2px solid whitesmoke
-}
-
-nav {
-  background-color: rgb(65, 75, 5);
+  border-bottom: 2px solid #829093;
 }
 
 #logos {
@@ -49,73 +52,50 @@ nav {
 
 }
 
-ul {
-  gap: 30px;
-  left: 20px;
+#txt {
+  margin-left: 200px;
 }
 
+#sub {
+  text-align: center;
+  letter-spacing: 3px;
+  color: white;
+}
 
+#portrait {
+  background-color: rgba(29, 213, 157, 255);
+  padding: 5px;
+}
 
+#pics {
+  background-color: #f8fcf5;
+  display: flex;
+  max-width: 1500px;
+  margin: 195px;
+  flex-wrap: wrap;
+  gap: 8px;
+  grid-template-columns: repeat(4, 1fr);
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------- MEDIA QUERIES ------------------------------------------ 
+footer {
+  text-align: center;
+  color: #829093;
+}
 
 @media screen and (max-width:1024px) {
-  main {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+  header {
+    background-color: aquamarine;
+    flex-direction: column;
   }
 
-  section {
-    width: 90%;
-    background: rgba(204, 175, 175, 0.3);
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 10px;
+  #pics {
+    grid-template-columns: repeat(4, 1fr);
   }
 
-  h1 {
-    color: blanchedalmond;
-    font-size: 2vw;
-    width: max-content;
-  }
-
-  h2,
-  p {
-    text-align: center;
-  }
-
-  a img {
-    display: block;
-    margin: auto;
+ /* .grid img:nth-child(n + 3) {
+    display: none;
   }
 }
-*/
+  /*
