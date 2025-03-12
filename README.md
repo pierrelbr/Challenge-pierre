@@ -1,1 +1,1 @@
-# voici le cv : https://pierrelbr.github.io/Challenge-pierre/
+# voici : https://pierrelbr.github.io/Challenge-pierre/
