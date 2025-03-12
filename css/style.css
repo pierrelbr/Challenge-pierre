@@ -39,13 +39,13 @@ p {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 2px solid #829093;
 }
 
 #logos {
   display: flex;
   gap: 15px;
-  position: absolute;
   top: 25px;
   right: 20px;
   color: #f8fcf5;
@@ -68,13 +68,12 @@ header {
 }
 
 #pics {
-  background-color: #f8fcf5;
-  display: flex;
-  max-width: 1500px;
-  margin: 195px;
-  flex-wrap: wrap;
+  padding-top: 35px;
+  display: grid;
   gap: 8px;
   grid-template-columns: repeat(4, 1fr);
+  margin: auto;
+  max-width: 80%;
 
 }
 
@@ -83,19 +82,54 @@ footer {
   color: #829093;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 768px) {
 
+  #pics {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    max-width: 95%;
+  }
+
+  #pics img {
+    width: 100%;
+    height: auto;
+  }
+
+  #txt {
+    margin-left: 100px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 426px) {
   header {
-    background-color: aquamarine;
+    display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
   }
 
   #pics {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    img:nth-child(n + 10) {
+      display: none;
+    }
+    gap: 5px;
+    max-width: 95%;
   }
 
- /* .grid img:nth-child(n + 3) {
-    display: none;
+  #pics img {
+    width: 100%;
+    height: auto;
+  }
+
+  #txt {
+    margin-left: 10px;
+    font-weight: 50;
+  }
+  #sub {
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
   }
 }
-  /*
